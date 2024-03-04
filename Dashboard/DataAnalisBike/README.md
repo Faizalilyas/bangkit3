@@ -1,18 +1,17 @@
-# Proyek Akhir Dicoding - Belajar Analisis Data Dengan Python
-## Proyek Analisa Data
-Proyek ini dibuat sebagai ketentuan untuk lulus kelas Belajar Analisis Data Dengan Python, aplikasi sendiri berbentuk dalam dashboard yang dideploy in *streamlit*
+# Proyek Analisis Data - Dicoding
+
 ## Deksripsi Singkat Proyek
-Proyek ini menganalisa bagian data hour.csv dari bike sharing analysis. Tujuan akhir dari analisa ini adalah mengetahui berapa jumlah penyewaan harian dan
-beberapa *insight* menarik didalam data
+Proyek analisa bertujuan ini membantu penyedia layanan penyewaan sepeda dalam mengambil keputusan yang lebih baik dalam mengelola operasi mereka dan meningkatkan layanan yang mereka tawarkan kepada pengguna.
+
 ## Struktur Direktori
-- /data berisi data mentah yang digunakan dalam proyek
-- /dashboard berisi dashboard.py yang digunakan untuk membuat hasil analisis data serta dataset yang sudah selesai di *assess* dan *cleaning*
+- /Bike-sharing-dataset berisi dataset yang digunakan dalam proses analisis data.
+- /Dashboard berisi berkas Python (dashbike.py) yang digunakan untuk membuat dashboard dengan streamlit dan dataset yang sudah di *assessing*  dan *cleaning* (bike.csv).
 - notebook.ipynb adalah *notebook* yang digunakan dalam analisa data
 
 ## Langkah Instalasi
 1. Silahkan Clone Repository ini ke *local computer* anda, lakukan langkah dibawah ini
    ```shell
-   git clone https://github.com/rzad20/bike_sharing_analysis
+   git clone https://github.com/Faizalilyas/Submission-DataAnalisDicoding.git
    ```
 2.  Install Python (Jika anda belum memilikinya). jika ada sudah memiliki *environment* python. silahkan jalankan perintah berikut untuk menginstall pustaka yang dibutuhkan
    ```shell
@@ -21,10 +20,10 @@ beberapa *insight* menarik didalam data
 ## Penggunaan
 1. Masuk ke direktori proyek local anda :
    ```shell
-   cd bike_sharing_analysis/dashboard/
+   cd Submission-DataAnalisDicoding/Dashboard/
    streamlit run dashboard.py
    ```
-   anda bisa melihat aplikasi yang telah dideploy di streamlit dalam [link ini](https://bikesharinganalysis-6q5umxnunzv9ttma4bpbks.streamlit.app/)
+   Kita juga bisa melihat aplikasi yang telah dideploy di streamlit dengan [di sini](https://faizalilyas-bangkit3-dashboarddataanalisbikedashbike-pyxbqk.streamlit.app/)
 ## Preview
 berikut tampilah dashboard terkait
-![dashboard](preview.png)
+![dashboard](https://raw.githubusercontent.com/Faizalilyas/Submission-DataAnalisDicoding/main/PreviewDashboard.png)
